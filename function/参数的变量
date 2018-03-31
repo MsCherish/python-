@@ -1,0 +1,8 @@
+def product(*numbers):
+     if len(numbers)==0:
+         raise TypeError("None Parameter")
+     else:
+         y=1
+         for x in numbers:
+             y = y*x
+             return y
